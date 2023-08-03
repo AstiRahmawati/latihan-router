@@ -1,4 +1,7 @@
 <template>
+    <div v-if="data.length == 0">
+        <h1>Produk Tidak Tersedia</h1>
+    </div>
     <div class="flex-container">
         <div v-for="produk in data" :key="produk.id" class="card">
         <img :src="getImgSrc(produk.img)" alt="Category Image"/>

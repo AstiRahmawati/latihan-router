@@ -101,7 +101,7 @@ export const produk = {
             "nama" : "Tunik",
             "harga" : "250.000",
             "keterangan" : "Tunik adalah pakaian dengan ukuran yang lebih longgar dari model pakaian seperti biasanya sehingga mampu menutupi dada, bahu dan punggung. Pakaian ini memiliki potongan yang sangat sederhana. Pada awalnya, tunik merupakan pakaian tanpa lengan yang disebut colobium. Tunik dengan berbagai macam model, motif serta corak nyatanya cocok banget dikenakan untuk segala macam acara mulai dari kasual hingga formal, outfit untuk kuliah atau bahkan pergi ke kondangan.",
-            "id_kategori" : 5,
+            "id_kategori" : 55,
             "img" : "tunik.webp"
         },
         {
@@ -109,7 +109,7 @@ export const produk = {
             "nama" : "Kemeja",
             "harga" : "200.000",
             "keterangan" : "Kemeja wanita adalah baju atau atasan yang berpola badan wanita, ada yang memiliki siluet atau kupnat sehingga terlihat dengan baik siluet atau lekuk badan pemakainya, dan memiliki kancing depan dari atas hingga bawah. ",
-            "id_kategori" : 5,
+            "id_kategori" : 55,
             "img" : "kemeja3.webp"
         },
         {
@@ -117,7 +117,8 @@ export const produk = {
             "nama" : "Abaya",
             "harga" : "500.000",
             "keterangan" : "Abaya adalah sebuah busana garmen yang berasal dari timur tengah, berbentuk sederhana mirip jubah. Oleh sebab itu abaya juga diistilahkan dengan gamis arab. Usut punya usut ternyata ada kain khusus yang memang dipakai para muslimah Arab untuk merancang abaya lho. Beberapa bahan yang dimaksud diantaranya ada maliky, nida, fursan, lexus serta hareer yang lebih dikenal dengan sebutan formal jetblack kualitas premium.",
-            "id_kategori" : 5,
+            "id_kategori" : 55
+            ,
             "img" : "abaya.jpg"
         },
         

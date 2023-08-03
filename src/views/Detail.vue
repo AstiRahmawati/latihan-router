@@ -1,4 +1,7 @@
 <template>
+    <!-- <div v-if="filteredProduk.length == 0">
+        <h1>Produk Tidak Tersedia</h1>
+    </div>  -->
     <h1>Detail {{ detail.nama }}</h1>
     <h4>Harga: {{ detail.harga }}</h4>
     <img :src="getImgSrc(detail.img)" alt="Category Image"/>
