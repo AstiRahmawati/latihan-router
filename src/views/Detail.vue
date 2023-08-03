@@ -1,6 +1,7 @@
 <template>
     <h1>Detail {{ detail.nama }}</h1>
     <h4>Harga: {{ detail.harga }}</h4>
+    <img :src="getImgSrc(detail.img)" alt="Category Image"/>
     <h4>keterangan: {{ detail.keterangan }}</h4>
   </template>
 
@@ -16,9 +17,21 @@ export default {
         const detail = produk["produk"].find(function(item) {
             return item.id == props.id_produk;
         });
+
+        const getImgSrc = (imgFileName) => {
+        return '../src/assets/img/' + imgFileName + '';
+       };
+
         return{
-            detail
+            detail,
+            getImgSrc
         }
     }
 }
 </script>
+
+<style>
+img {
+        width: 250px;
+        /* height: 150px; */
+    }</style>
